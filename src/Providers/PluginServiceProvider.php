@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace Aqil\LaravelPlugin\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Contracts\ClientInterface;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\InvalidActivatorClass;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
-use Yxx\LaravelPlugin\Support\Stub;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\Contracts\ClientInterface;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Exceptions\InvalidActivatorClass;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Support\Stub;
 
 class PluginServiceProvider extends ServiceProvider
 {

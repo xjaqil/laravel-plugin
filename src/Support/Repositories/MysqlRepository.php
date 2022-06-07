@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Repositories;
+namespace Aqil\LaravelPlugin\Support\Repositories;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
@@ -9,10 +9,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\Macroable;
-use Yxx\LaravelPlugin\Enums\PluginStatus;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Models\InstallPlugin;
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Enums\PluginStatus;
+use Aqil\LaravelPlugin\Exceptions\PluginNotFoundException;
+use Aqil\LaravelPlugin\Models\InstallPlugin;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 class MysqlRepository
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Config;
+namespace Aqil\LaravelPlugin\Support\Config;
 
 class GeneratorPath
 {

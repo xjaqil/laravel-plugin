@@ -1,31 +1,31 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace Aqil\LaravelPlugin\Providers;
 
 use Carbon\Laravel\ServiceProvider;
 use Illuminate\Support\Str;
-use Yxx\LaravelPlugin\Console\Commands\ComposerInstallCommand;
-use Yxx\LaravelPlugin\Console\Commands\ComposerRemoveCommand;
-use Yxx\LaravelPlugin\Console\Commands\ComposerRequireCommand;
-use Yxx\LaravelPlugin\Console\Commands\ControllerMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\DisableCommand;
-use Yxx\LaravelPlugin\Console\Commands\DownLoadCommand;
-use Yxx\LaravelPlugin\Console\Commands\EnableCommand;
-use Yxx\LaravelPlugin\Console\Commands\InstallCommand;
-use Yxx\LaravelPlugin\Console\Commands\ListCommand;
-use Yxx\LaravelPlugin\Console\Commands\LoginCommand;
-use Yxx\LaravelPlugin\Console\Commands\MigrateCommand;
-use Yxx\LaravelPlugin\Console\Commands\MigrationMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\ModelMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\PluginCommand;
-use Yxx\LaravelPlugin\Console\Commands\PluginDeleteCommand;
-use Yxx\LaravelPlugin\Console\Commands\PluginMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\ProviderMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\PublishCommand;
-use Yxx\LaravelPlugin\Console\Commands\RegisterCommand;
-use Yxx\LaravelPlugin\Console\Commands\RouteProviderMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\SeedMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\UploadCommand;
+use Aqil\LaravelPlugin\Console\Commands\ComposerInstallCommand;
+use Aqil\LaravelPlugin\Console\Commands\ComposerRemoveCommand;
+use Aqil\LaravelPlugin\Console\Commands\ComposerRequireCommand;
+use Aqil\LaravelPlugin\Console\Commands\ControllerMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\DisableCommand;
+use Aqil\LaravelPlugin\Console\Commands\DownLoadCommand;
+use Aqil\LaravelPlugin\Console\Commands\EnableCommand;
+use Aqil\LaravelPlugin\Console\Commands\InstallCommand;
+use Aqil\LaravelPlugin\Console\Commands\ListCommand;
+use Aqil\LaravelPlugin\Console\Commands\LoginCommand;
+use Aqil\LaravelPlugin\Console\Commands\MigrateCommand;
+use Aqil\LaravelPlugin\Console\Commands\MigrationMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\ModelMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\PluginCommand;
+use Aqil\LaravelPlugin\Console\Commands\PluginDeleteCommand;
+use Aqil\LaravelPlugin\Console\Commands\PluginMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\ProviderMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\PublishCommand;
+use Aqil\LaravelPlugin\Console\Commands\RegisterCommand;
+use Aqil\LaravelPlugin\Console\Commands\RouteProviderMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\SeedMakeCommand;
+use Aqil\LaravelPlugin\Console\Commands\UploadCommand;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -34,7 +34,7 @@ class ConsoleServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected string $consoleNamespace = 'Yxx\\LaravelPlugin\\Console\\Commands';
+    protected string $consoleNamespace = 'Aqil\\LaravelPlugin\\Console\\Commands';
 
     /**
      * The available commands.

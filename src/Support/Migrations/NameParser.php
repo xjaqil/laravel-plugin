@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Migrations;
+namespace Aqil\LaravelPlugin\Support\Migrations;
 
 class NameParser
 {

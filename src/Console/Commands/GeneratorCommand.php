@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
-use Yxx\LaravelPlugin\Exceptions\FileAlreadyExistException;
-use Yxx\LaravelPlugin\Support\Generators\FileGenerator;
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Exceptions\FileAlreadyExistException;
+use Aqil\LaravelPlugin\Support\Generators\FileGenerator;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 abstract class GeneratorCommand extends Command
 {

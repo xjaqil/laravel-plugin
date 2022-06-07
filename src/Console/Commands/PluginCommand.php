@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;

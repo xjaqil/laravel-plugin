@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support\Composer;
+namespace Aqil\LaravelPlugin\Tests\Support\Composer;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\ComposerException;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRemove;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Exceptions\ComposerException;
+use Aqil\LaravelPlugin\Support\Composer\ComposerRemove;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRemoveTest extends TestCase
 {

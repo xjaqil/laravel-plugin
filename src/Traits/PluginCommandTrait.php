@@ -1,8 +1,8 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Traits;
+namespace Aqil\LaravelPlugin\Traits;
 
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 trait PluginCommandTrait
 {

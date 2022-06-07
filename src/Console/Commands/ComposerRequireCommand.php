@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRequire;
-use Yxx\LaravelPlugin\Support\Json;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Support\Composer\ComposerRequire;
+use Aqil\LaravelPlugin\Support\Json;
+use Aqil\LaravelPlugin\Traits\PluginCommandTrait;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRequireCommand extends Command
 {

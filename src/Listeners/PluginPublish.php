@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Listeners;
+namespace Aqil\LaravelPlugin\Listeners;
 
 use Illuminate\Support\Facades\Artisan;
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 class PluginPublish
 {

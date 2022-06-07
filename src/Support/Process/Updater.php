@@ -1,8 +1,8 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Process;
+namespace Aqil\LaravelPlugin\Support\Process;
 
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 class Updater extends Runner
 {

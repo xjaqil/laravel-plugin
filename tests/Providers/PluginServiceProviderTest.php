@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Providers;
+namespace Aqil\LaravelPlugin\Tests\Providers;
 
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\InvalidActivatorClass;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Exceptions\InvalidActivatorClass;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class PluginServiceProviderTest extends TestCase
 {

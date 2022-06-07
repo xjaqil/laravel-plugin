@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace Aqil\LaravelPlugin\Support;
 
 class Stub
 {

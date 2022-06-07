@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Activators;
+namespace Aqil\LaravelPlugin\Tests\Activators;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Activators\FileActivator;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Activators\FileActivator;
+use Aqil\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class FileActivatorTest extends TestCase
 {

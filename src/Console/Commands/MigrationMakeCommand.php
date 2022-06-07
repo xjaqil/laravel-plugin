@@ -1,16 +1,16 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use Yxx\LaravelPlugin\Support\Config\GenerateConfigReader;
-use Yxx\LaravelPlugin\Support\Migrations\NameParser;
-use Yxx\LaravelPlugin\Support\Migrations\SchemaParser;
-use Yxx\LaravelPlugin\Support\Stub;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
+use Aqil\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Aqil\LaravelPlugin\Support\Migrations\NameParser;
+use Aqil\LaravelPlugin\Support\Migrations\SchemaParser;
+use Aqil\LaravelPlugin\Support\Stub;
+use Aqil\LaravelPlugin\Traits\PluginCommandTrait;
 
 class MigrationMakeCommand extends GeneratorCommand
 {

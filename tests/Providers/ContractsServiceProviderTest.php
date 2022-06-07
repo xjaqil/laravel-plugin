@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Providers;
+namespace Aqil\LaravelPlugin\Tests\Providers;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class ContractsServiceProviderTest extends TestCase
 {

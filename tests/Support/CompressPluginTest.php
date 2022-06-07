@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support;
+namespace Aqil\LaravelPlugin\Tests\Support;
 
-use Yxx\LaravelPlugin\Support\CompressPlugin;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Support\CompressPlugin;
+use Aqil\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class CompressPluginTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Commands;
+namespace Aqil\LaravelPlugin\Tests\Commands;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Config\GenerateConfigReader;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class PublishCommandTest extends TestCase
 {

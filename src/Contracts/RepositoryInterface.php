@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Contracts;
+namespace Aqil\LaravelPlugin\Contracts;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Support\Collection;
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Exceptions\PluginNotFoundException;
+use Aqil\LaravelPlugin\Support\Collection;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 interface RepositoryInterface
 {

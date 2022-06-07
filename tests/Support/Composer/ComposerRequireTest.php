@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support\Composer;
+namespace Aqil\LaravelPlugin\Tests\Support\Composer;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRequire;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Support\Composer\ComposerRequire;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRequireTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\ValueObjects;
+namespace Aqil\LaravelPlugin\ValueObjects;
 
 class ValRequire
 {

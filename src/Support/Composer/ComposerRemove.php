@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Composer;
+namespace Aqil\LaravelPlugin\Support\Composer;
 
-use Yxx\LaravelPlugin\Exceptions\ComposerException;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Exceptions\ComposerException;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRemove extends Composer
 {

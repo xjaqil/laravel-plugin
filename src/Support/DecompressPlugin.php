@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace Aqil\LaravelPlugin\Support;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\DecompressPluginException;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Exceptions\DecompressPluginException;
 
 class DecompressPlugin
 {

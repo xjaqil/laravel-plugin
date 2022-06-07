@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Traits;
+namespace Aqil\LaravelPlugin\Traits;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\App;
-use Yxx\LaravelPlugin\Support\Config;
+use Aqil\LaravelPlugin\Support\Config;
 
 trait HasGuzzleClient
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support;
+namespace Aqil\LaravelPlugin\Tests\Support;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Support\Stub;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Support\Stub;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class StubTest extends TestCase
 {

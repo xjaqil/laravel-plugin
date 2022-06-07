@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace Aqil\LaravelPlugin\Support;
 
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Process\Process;
-use Yxx\LaravelPlugin\Exceptions\CompressPluginException;
+use Aqil\LaravelPlugin\Exceptions\CompressPluginException;
 use ZipArchive;
 
 class CompressPlugin

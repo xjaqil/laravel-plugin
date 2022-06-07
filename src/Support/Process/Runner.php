@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Process;
+namespace Aqil\LaravelPlugin\Support\Process;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Contracts\RunableInterface;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Contracts\RunableInterface;
 
 class Runner implements RunableInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Enums;
+namespace Aqil\LaravelPlugin\Enums;
 
 use Spatie\Enum\Laravel\Enum;
 

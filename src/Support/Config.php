@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace Aqil\LaravelPlugin\Support;
 
 use ArrayAccess;
 use Illuminate\Support\Arr;

@@ -30,12 +30,12 @@ Laravel Plugin is a plugin mechanism solution for developers who need to build t
 
 * Step 1
 ```shell
-composer require yxx/laravel-plugin
+composer require Aqil/laravel-plugin
 ```
 
 * Step 2
 ```php
-php artisan vendor:publish --provider="Yxx\LaravelPlugin\Providers\PluginServiceProvider"
+php artisan vendor:publish --provider="Aqil\LaravelPlugin\Providers\PluginServiceProvider"
 ```
 
 

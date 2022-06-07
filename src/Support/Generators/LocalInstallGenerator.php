@@ -1,17 +1,17 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Generators;
+namespace Aqil\LaravelPlugin\Support\Generators;
 
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Contracts\GeneratorInterface;
-use Yxx\LaravelPlugin\Exceptions\LocalPathNotFoundException;
-use Yxx\LaravelPlugin\Exceptions\PluginAlreadyExistException;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRequire;
-use Yxx\LaravelPlugin\Support\DecompressPlugin;
-use Yxx\LaravelPlugin\Support\Json;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\Contracts\GeneratorInterface;
+use Aqil\LaravelPlugin\Exceptions\LocalPathNotFoundException;
+use Aqil\LaravelPlugin\Exceptions\PluginAlreadyExistException;
+use Aqil\LaravelPlugin\Support\Composer\ComposerRequire;
+use Aqil\LaravelPlugin\Support\DecompressPlugin;
+use Aqil\LaravelPlugin\Support\Json;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
 
 class LocalInstallGenerator implements GeneratorInterface
 {

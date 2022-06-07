@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Repositories;
+namespace Aqil\LaravelPlugin\Support\Repositories;
 
 use Exception;
 use Illuminate\Cache\CacheManager;
@@ -12,15 +12,15 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Symfony\Component\Process\Process;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\InvalidAssetPath;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Support\Collection;
-use Yxx\LaravelPlugin\Support\Json;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Support\Process\Installer;
-use Yxx\LaravelPlugin\Support\Process\Updater;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Exceptions\InvalidAssetPath;
+use Aqil\LaravelPlugin\Exceptions\PluginNotFoundException;
+use Aqil\LaravelPlugin\Support\Collection;
+use Aqil\LaravelPlugin\Support\Json;
+use Aqil\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Process\Installer;
+use Aqil\LaravelPlugin\Support\Process\Updater;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class FileRepository implements RepositoryInterface
 {

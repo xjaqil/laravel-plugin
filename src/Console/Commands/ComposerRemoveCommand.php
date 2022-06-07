@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRemove;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
-use Yxx\LaravelPlugin\ValueObjects\ValRequire;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Support\Composer\ComposerRemove;
+use Aqil\LaravelPlugin\Traits\PluginCommandTrait;
+use Aqil\LaravelPlugin\ValueObjects\ValRequire;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRemoveCommand extends Command
 {

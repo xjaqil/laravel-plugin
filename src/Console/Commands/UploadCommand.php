@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Mockery\Exception;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\CompressPlugin;
-use Yxx\LaravelPlugin\Traits\HasMarketTokens;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
+use Aqil\LaravelPlugin\Support\CompressPlugin;
+use Aqil\LaravelPlugin\Traits\HasMarketTokens;
+use Aqil\LaravelPlugin\Traits\PluginCommandTrait;
 
 class UploadCommand extends Command
 {

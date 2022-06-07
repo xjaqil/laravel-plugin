@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support\Repositories;
+namespace Aqil\LaravelPlugin\Tests\Support\Repositories;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Yxx\LaravelPlugin\Enums\PluginStatus;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Models\InstallPlugin;
-use Yxx\LaravelPlugin\Support\Repositories\MysqlRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Enums\PluginStatus;
+use Aqil\LaravelPlugin\Exceptions\PluginNotFoundException;
+use Aqil\LaravelPlugin\Models\InstallPlugin;
+use Aqil\LaravelPlugin\Support\Repositories\MysqlRepository;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class MysqlRepositoryTest extends TestCase
 {

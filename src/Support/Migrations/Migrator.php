@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Migrations;
+namespace Aqil\LaravelPlugin\Support\Migrations;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Yxx\LaravelPlugin\Support\Config\GenerateConfigReader;
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 class Migrator
 {

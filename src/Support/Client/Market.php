@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Client;
+namespace Aqil\LaravelPlugin\Support\Client;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\StreamInterface;
-use Yxx\LaravelPlugin\Contracts\ClientInterface;
-use Yxx\LaravelPlugin\Traits\HasGuzzleClient;
+use Aqil\LaravelPlugin\Contracts\ClientInterface;
+use Aqil\LaravelPlugin\Traits\HasGuzzleClient;
 
 class Market implements ClientInterface
 {

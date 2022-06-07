@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Process;
+namespace Aqil\LaravelPlugin\Support\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use Symfony\Component\Process\Process;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
 
 class Installer
 {

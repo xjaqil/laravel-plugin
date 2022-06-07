@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support;
+namespace Aqil\LaravelPlugin\Tests\Support;
 
 use PluginsTest\PluginOne\Providers\PluginOneServiceProvider;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Tests\TestCase;
 
 class PluginTest extends TestCase
 {

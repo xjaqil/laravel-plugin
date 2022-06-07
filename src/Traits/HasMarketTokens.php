@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Traits;
+namespace Aqil\LaravelPlugin\Traits;
 
 use Exception;
-use Yxx\LaravelPlugin\Support\Config;
+use Aqil\LaravelPlugin\Support\Config;
 
 trait HasMarketTokens
 {

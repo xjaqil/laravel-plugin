@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace Aqil\LaravelPlugin\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
 
 class BootstrapServiceProvider extends ServiceProvider
 {

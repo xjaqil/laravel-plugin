@@ -1,8 +1,8 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Contracts;
+namespace Aqil\LaravelPlugin\Contracts;
 
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 interface ActivatorInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace Aqil\LaravelPlugin\Support;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Foundation\Application as ApplicationContract;
@@ -11,8 +11,8 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Translation\Translator;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class Plugin
 {

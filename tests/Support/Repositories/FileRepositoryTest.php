@@ -1,15 +1,15 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support\Repositories;
+namespace Aqil\LaravelPlugin\Tests\Support\Repositories;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Support\Collection;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\Exceptions\PluginNotFoundException;
+use Aqil\LaravelPlugin\Support\Collection;
+use Aqil\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Tests\TestCase;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 class FileRepositoryTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Generators;
+namespace Aqil\LaravelPlugin\Support\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\GeneratorInterface;
-use Yxx\LaravelPlugin\Exceptions\FileAlreadyExistException;
+use Aqil\LaravelPlugin\Contracts\GeneratorInterface;
+use Aqil\LaravelPlugin\Exceptions\FileAlreadyExistException;
 
 class FileGenerator implements GeneratorInterface
 {

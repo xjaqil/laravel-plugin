@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace Aqil\LaravelPlugin\Support;
 
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
-use Yxx\LaravelPlugin\Exceptions\InvalidJsonException;
+use Aqil\LaravelPlugin\Exceptions\InvalidJsonException;
 
 class Json
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Composer;
+namespace Aqil\LaravelPlugin\Support\Composer;
 
-use Yxx\LaravelPlugin\Exceptions\ComposerException;
+use Aqil\LaravelPlugin\Exceptions\ComposerException;
 
 class ComposerInstall extends Composer
 {

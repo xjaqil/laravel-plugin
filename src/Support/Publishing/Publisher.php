@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Publishing;
+namespace Aqil\LaravelPlugin\Support\Publishing;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\PublisherInterface;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Contracts\PublisherInterface;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Support\Plugin;
 
 abstract class Publisher implements PublisherInterface
 {

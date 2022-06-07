@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Composer;
+namespace Aqil\LaravelPlugin\Support\Composer;
 
 use Exception;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Traits\Macroable;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Json;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Support\Json;
+use Aqil\LaravelPlugin\ValueObjects\ValRequires;
 
 abstract class Composer
 {

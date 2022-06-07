@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Support\Publishing\AssetPublisher;
+use Aqil\LaravelPlugin\Support\Plugin;
+use Aqil\LaravelPlugin\Support\Publishing\AssetPublisher;
 
 class PublishCommand extends Command
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace Aqil\LaravelPlugin\Providers;
 
 use Carbon\Laravel\ServiceProvider;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Contracts\RepositoryInterface;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
 
 class ContractsServiceProvider extends ServiceProvider
 {

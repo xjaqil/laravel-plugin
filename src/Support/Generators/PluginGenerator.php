@@ -1,17 +1,17 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Generators;
+namespace Aqil\LaravelPlugin\Support\Generators;
 
 use Exception;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Contracts\GeneratorInterface;
-use Yxx\LaravelPlugin\Support\Config\GenerateConfigReader;
-use Yxx\LaravelPlugin\Support\Repositories\FileRepository;
-use Yxx\LaravelPlugin\Support\Stub;
+use Aqil\LaravelPlugin\Contracts\ActivatorInterface;
+use Aqil\LaravelPlugin\Contracts\GeneratorInterface;
+use Aqil\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Aqil\LaravelPlugin\Support\Repositories\FileRepository;
+use Aqil\LaravelPlugin\Support\Stub;
 
 class PluginGenerator implements GeneratorInterface
 {

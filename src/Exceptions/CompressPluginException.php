@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Exceptions;
+namespace Aqil\LaravelPlugin\Exceptions;
 
 class CompressPluginException extends \Exception
 {

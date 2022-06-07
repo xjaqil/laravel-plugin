@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Models;
+namespace Aqil\LaravelPlugin\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Yxx\LaravelPlugin\Enums\PluginStatus;
+use Aqil\LaravelPlugin\Enums\PluginStatus;
 
 class InstallPlugin extends Model
 {

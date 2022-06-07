@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace Aqil\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Yxx\LaravelPlugin\Traits\HasMarketTokens;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
+use Aqil\LaravelPlugin\Traits\HasMarketTokens;
+use Aqil\LaravelPlugin\Traits\PluginCommandTrait;
 
 class DownLoadCommand extends Command
 {
